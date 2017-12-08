@@ -7,3 +7,5 @@ RDBMS 数据库程序（比如 MS Access, SQL Server, MySQL）
 服务器端脚本语言（比如 PHP 或 ASP）
 SQL
 HTML / CSS
+RDBMS 指的是关系型数据库管理系统。
+RDBMS 是 SQL 的基础，同样也是所有现代数据库系统的基础，比如 MS SQL Server, IBM DB2, Oracle, MySQL 以及 Microsoft Access。
