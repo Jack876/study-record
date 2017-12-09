@@ -1,3 +1,5 @@
+https://www.w3cschool.cn/sql/
+
 
 SQL 是一种标准 - 但是...
 SQL 是一门 ANSI 的标准计算机语言，用来访问和操作数据库系统。SQL 语句用于取回和更新数据库中的数据。SQL 可与数据库程序协同工作，比如 MS Access、DB2、Informix、MS SQL Server、Oracle、Sybase 以及其他数据库系统。
@@ -32,3 +34,6 @@ SQL语句结构
 其语句包括动词CREATE和DROP。在数据库中创建新表或删除表（CREAT TABLE 或 DROP TABLE）；为表加入索引等。DDL包括许多与人数据库目录中获得数据有关的保留字。它也是动作查询的一部分。
 六：指针控制语言（CCL）：
 它的语句，像DECLARE CURSOR，FETCH INTO和UPDATE WHERE CURRENT用于对一个或多个表单独行的操作。
+简要描述一下结构化查询语言中的五种数据类型：字符型，文本型，数值型，逻辑型和日期型。
+字符型(VARCHARVS CHAR)
+VARCHAR型和CHAR型数据的这个差别是细微的，但是非常重要。他们都是用来储存字符串长度小于255的字符。
