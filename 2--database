@@ -51,3 +51,5 @@ DATETIME型字段在你输入日期和时间之前并不包含实际的数据，
 一个数据库通常包含一个或多个表。每个表由一个名字标识（例如 "Customers" 或者 "Orders"）。表包含带有数据的记录（行）。
 在本教程中，我们将使用众所周知的 Northwind 样本数据库（包含在 MS Access 和 MS SQL Server）。
 下面是选自 "Customers" 表的数据：
+您需要在数据库上执行的大部分工作都由 SQL 语句完成。
+下面的 SQL 语句从 "Customers" 表中选取所有记录：
