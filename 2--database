@@ -53,3 +53,5 @@ DATETIME型字段在你输入日期和时间之前并不包含实际的数据，
 下面是选自 "Customers" 表的数据：
 您需要在数据库上执行的大部分工作都由 SQL 语句完成。
 下面的 SQL 语句从 "Customers" 表中选取所有记录：
+实例
+SELECT * FROM Customers;
