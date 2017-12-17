@@ -74,3 +74,4 @@ SELECT CustomerName,City FROM Customers;
 下面的 SQL 语句从 "Customers" 表中选取所有列：
 实例
 SELECT * FROM Customers;
+大多数数据库软件系统都允许使用编程函数在结果集中进行导航，比如：Move-To-First-Record、Get-Record-Content、Move-To-Next-Record 等等。
