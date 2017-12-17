@@ -71,3 +71,6 @@ SELECT * FROM table_name;
 下面的 SQL 语句从 "Customers" 表中选取 "CustomerName" 和 "City" 列：
 实例
 SELECT CustomerName,City FROM Customers;
+下面的 SQL 语句从 "Customers" 表中选取所有列：
+实例
+SELECT * FROM Customers;
