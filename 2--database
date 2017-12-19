@@ -81,3 +81,7 @@ SQL WHERE 语法
 SELECT column_name,column_name
 FROM table_name
 WHERE column_name operator value;
+下面的 SQL 语句从 "Customers" 表中选取国家为 "Mexico" 的所有客户：
+实例
+SELECT * FROM Customers
+WHERE Country='Mexico';
