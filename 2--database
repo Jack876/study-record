@@ -92,3 +92,8 @@ SELECT * FROM Customers
 WHERE CustomerID=1;
 如果第一个条件和第二个条件都成立，则 AND 运算符显示一条记录。
 如果第一个条件和第二个条件中只要有一个成立，则 OR 运算符显示一条记录。
+面的 SQL 语句从 "Customers" 表中选取国家为 "Germany" 且城市为 "Berlin" 的所有客户：
+实例
+SELECT * FROM Customers
+WHERE Country='Germany'
+AND City='Berlin';
