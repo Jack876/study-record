@@ -102,3 +102,7 @@ AND City='Berlin';
 SELECT * FROM Customers
 WHERE City='Berlin'
 OR City='München';
+您也可以把 AND 和 OR 结合起来（使用圆括号来组成复杂的表达式）。
+下面的 SQL 语句从 "Customers" 表中选取国家为 "Germany" 且城市为 "Berlin" 或者 "München" 的所有客户：
+实例
+SELECT * FROM Customers
