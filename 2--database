@@ -85,3 +85,8 @@ WHERE column_name operator value;
 实例
 SELECT * FROM Customers
 WHERE Country='Mexico';
+SQL 使用单引号来环绕文本值（大部分数据库系统也接受双引号）。
+如果是数值字段，请不要使用引号。
+实例
+SELECT * FROM Customers
+WHERE CustomerID=1;
