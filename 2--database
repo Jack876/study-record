@@ -97,3 +97,8 @@ WHERE CustomerID=1;
 SELECT * FROM Customers
 WHERE Country='Germany'
 AND City='Berlin';
+下面的 SQL 语句从 "Customers" 表中选取城市为 "Berlin" 或者 "München" 的所有客户：
+实例
+SELECT * FROM Customers
+WHERE City='Berlin'
+OR City='München';
