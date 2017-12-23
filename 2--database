@@ -106,3 +106,7 @@ OR City='München';
 下面的 SQL 语句从 "Customers" 表中选取国家为 "Germany" 且城市为 "Berlin" 或者 "München" 的所有客户：
 实例
 SELECT * FROM Customers
+SQL ORDER BY 关键字
+
+ORDER BY 关键字用于对结果集按照一个列或者多个列进行排序。
+ORDER BY 关键字默认按照升序对记录进行排序。如果需要按照降序对记录进行排序，您可以使用 DESC 关键字。
