@@ -115,3 +115,7 @@ SQL ORDER BY 语法
 SELECT column_name,column_name
 FROM table_name
 ORDER BY column_name,column_name ASC|DESC;
+下面的 SQL 语句从 "Customers" 表中选取所有客户，并按照 "Country" 列排序：
+实例
+SELECT * FROM Customers
+ORDER BY Country;
