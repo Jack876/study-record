@@ -123,3 +123,9 @@ ORDER BY Country;
 实例
 SELECT * FROM Customers
 ORDER BY Country DESC;
+ORDER BY Several Columns 实例
+
+下面的 SQL 语句从 "Customers" 表中选取所有客户，并按照 "Country" 和 "CustomerName" 列排序：
+实例
+SELECT * FROM Customers
+ORDER BY Country,CustomerName;
