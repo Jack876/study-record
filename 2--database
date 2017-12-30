@@ -151,4 +151,10 @@ VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');
 下面的 SQL 语句将插入一个新行，但是只在 "CustomerName"、"City" 和 "Country" 列插入数据（CustomerID 字段会自动更新）：
 实例
 INSERT INTO Customers (CustomerName, City, Country)
-VALUES ('Cardinal', 'Stavanger', 'Norway');
+VAUPDATE 语句用于更新表中已存在的记录。
+SQL UPDATE 语法
+
+UPDATE table_name
+SET column1=value1,column2=value2,...
+WHERE some_column=some_value;
+LUES ('Cardinal', 'Stavanger', 'Norway');
