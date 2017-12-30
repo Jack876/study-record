@@ -140,3 +140,8 @@ VALUES (value1,value2,value3,...);
 
 INSERT INTO table_name (column1,column2,column3,...)
 VALUES (value1,value2,value3,...);
+假设我们要向 "Customers" 表中插入一个新行。
+我们可以使用下面的 SQL 语句：
+实例
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');
