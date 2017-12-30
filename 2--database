@@ -149,3 +149,6 @@ VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');
 
 我们也可以在指定的列插入数据。
 下面的 SQL 语句将插入一个新行，但是只在 "CustomerName"、"City" 和 "Country" 列插入数据（CustomerID 字段会自动更新）：
+实例
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
