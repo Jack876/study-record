@@ -129,3 +129,8 @@ ORDER BY Several Columns 实例
 实例
 SELECT * FROM Customers
 ORDER BY Country,CustomerName;
+INSERT INTO 语句用于向表中插入新记录。
+SQL INSERT INTO 语法
+
+INSERT INTO 语句可以有两种编写形式。
+第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
